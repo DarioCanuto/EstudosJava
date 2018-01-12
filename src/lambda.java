@@ -16,7 +16,10 @@ public class lambda {
 //			}
 //		
 //		});
+		usuarios.forEach(u -> u.tornarModerador());
 		usuarios.forEach(u -> System.out.println(u.getNome()));
 	}
+	
+//	PAREI NO CAPITULO TRES 3
 }
 

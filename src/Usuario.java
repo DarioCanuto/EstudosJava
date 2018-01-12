@@ -10,6 +10,10 @@ public Usuario(String nome, int pontos){
 	this.moderador = false;
 }
 
+public void tornarModerador(){
+	this.moderador = true;
+}
+
 public String getNome() {
 	return nome;
 }
